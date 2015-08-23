@@ -9,6 +9,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.foregroundFPS = 30;
 		config.backgroundFPS = 30;
+		config.title = "Misunderstanding";
 		new LwjglApplication(new Dare33(), config);
 	}
 }
